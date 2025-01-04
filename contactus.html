@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("elegent2.jpg");
+            background-size: cover;
+            display: flex;
+        }
+        nav{
+            background: rgba(17, 22, 22, 0.447);
+            height: 730px;
+            width:100%;
+        }
+        img{
+            height:300px;
+            width:300px;
+            border-radius: 3px;
+        }
+        .container{
+            display: flex;
+            margin-top: 150px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .card{
+        height: 300px;
+        width: 300px;
+        margin:50px;
+        box-shadow: 5px 5px 20px white;
+        overflow: hidden;
+        border-radius: 25px;
+        transition: 1s;
+    } 
+    .card:hover{
+        cursor: pointer;
+        height: 320px;
+        width: 320px;
+    }
+    img:hover{
+        cursor: pointer;
+        height: 390px;
+        width: 390px;
+    }
+    .intro{
+    height: 70px;
+    width: 280px;
+    padding: 6px;
+    position: absolute;
+    bottom: 245px;
+    box-sizing: border-box;
+    background: rgba(27,27,27,.5);
+    color: white;
+    border-radius: 25px;
+    transition: 1s;
+    transition: 0.5s;
+    }
+    .card:hover .intro{
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.273);
+    bottom: 225px;
+    width: 295px;
+    }
+    p{
+        visibility: hidden;
+    }
+    .card:hover .intro p{
+        visibility: visible;
+        background: rgba(0, 0, 0, 0.404);
+        height: 200px;
+        width: 100%;
+        transition: 1s;
+        border-radius: 25px;
+        bottom: 10px;
+        text-align: center;
+    }
+    .card img{
+        transition: 1s;
+    }
+    .card:hover img{
+        height: 320px;
+        width: 320px;
+    }
+    
+    .card:hover .intro img{
+        visibility: visible;
+        height: 40px;
+        width: 40px;
+        padding: 10px;
+        border-radius: 20px;
+
+    }
+    .card .intro img{
+        visibility: hidden;
+        transition: none;
+    }
+    button{
+        background-color: goldenrod;
+        width: 100px;
+        height: 35px;
+        border-radius: 5px;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+    <div class="container">
+        <div class="card">
+            <img src="hasmith3.jpg" alt="Hasmith">
+            <div class="intro">
+                <h1><center>Hasmith</center></h1>
+                <p><br/>Contact Me : +919059935110<br/><br/>
+                    Email : hasmithnaidu25@gmail.com<br/><br/>
+                    <a href="https://www.instagram.com/hasmithnaidu/" target="_main"> <img src="instagram.png"></a>
+                    <img src="facebook.png">
+                    <img src="twitter.png">
+                    <img src="telegram.png">
+            </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="rushyanth.jpg" alt="Rushyanth">
+            <div class="intro">
+                <h1><center>Rushyanth</center></h1>
+                <p><br/>Contact Me : +918309933892<br/><br/>
+                    Email : rushyanthtangudu289@gmail.com<br/><br/>
+                    <a href="https://www.instagram.com/rushyanthrock/" target="_main"> <img src="instagram.png"></a>
+                    <img src="facebook.png">
+                    <img src="twitter.png">
+                    <img src="telegram.png">
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Hemanth.jpg" alt="Hemanth">   
+            <div class="intro">
+                <h1><center>Hemanth</center></h1>
+                <p><br/>Contact Me : +919705821582<br/><br/>
+                    Email : shemanthkumarreddy3@gmail.com<br/><br/>
+                    <a href="https://www.instagram.com/shkr_hemanth/" target="_main"> <img src="instagram.png"></a>
+                    <img src="facebook.png">
+                    <img src="twitter.png">
+                    <img src="telegram.png">
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Charan2.jpg" alt="Charan">   
+            <div class="intro">
+                <h1><center>Charan</center></h1>
+                <p><br/>Contact Me : +919391408547<br/><br/>
+                    Email : charanreddy0639@gmail.com<br/><br/>
+                    <a href="https://www.instagram.com/charan_gorla04/" target="_main"> <img src="instagram.png"></a>
+                     <img src="facebook.png">
+                     <img src="twitter.png">
+                     <img src="telegram.png">
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center><a href="feedback.html"><button>Feedback</button></a></center>
+    </nav>
+    
+</body>
+</html>
